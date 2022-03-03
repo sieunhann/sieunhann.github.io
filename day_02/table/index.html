@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, td, th {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>FullName</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2">Nguyễn Văn A</td>
+                <td>Nhân viên</td>
+                <td rowspan="3">4000$</td>
+            </tr>
+            <tr>
+                <td>TPKD</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Trần Văn B</td>
+                <td>Giám đốc</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ngô Thị C</td>
+                <td>Trưởng phòng kinh doanh</td>
+                <td>3000$</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bùi Hiên</td>
+                <td>Thái Bình</td>
+                <td>Việt Nam</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Lisa</td>
+                <td>Bắc Kinh</td>
+                <td>Trung Quốc</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
