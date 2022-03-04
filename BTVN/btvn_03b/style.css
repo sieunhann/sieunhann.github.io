@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    font-family: 'Open Sans', sans-serif;
+    border: 10px solid #956fe5;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 660px;
+    overflow: hidden;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.content p{
+    margin-top: 20px;
+    line-height: 25.6px;
+}
+.info-field{
+    margin-top: 30px;
+}
+.information input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info-field textarea{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.name{
+    color: #956fe5;
+}
+
+.name:hover{
+    color: #8052e0;
+}
+
+.submit{
+    margin: 15px 0px;
+    text-align: center;
+}
+.submit button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #956fe5;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+}
+
+.submit button:hover{
+    background-color: #8052e0;
+}
