@@ -12,6 +12,8 @@
     box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
     border-radius: 4px;
     margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
 }
 .time{
     background-color: #fe6d3f;
