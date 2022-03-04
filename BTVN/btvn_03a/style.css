@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calendar{
+    font-family: 'Roboto', sans-serif;
+    max-width: 500px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    margin: auto;
+}
+.time{
+    background-color: #fe6d3f;
+    color: #fff;
+    text-align: center;
+}
+.time-year{
+    background-color: #ef5321;
+    font-weight: 300;
+    padding: 6px;
+}
+.time-date{
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.time-month{
+    padding-bottom: 15px;
+}
+.title{
+    padding: 15px;
+    font-size: 20.8px;
+    font-weight: 400;
+}
+.title a{
+    color: #464646;
+    text-decoration: none;
+}
+.timetable{
+    color: #464646;
+    max-width: 480px;
+    padding: 0px 15px;
+}
+
+.timetable-item i{
+    padding: 7px;
+}
+.request{
+    padding: 10px;
+    font-weight: 300;
+}
+.request a{
+    text-decoration: none;
+    color: #3c78e8;
+    padding: 15px;
+}

@@ -1,0 +1,41 @@
+:root{
+    --color-text: #13a83a;
+    --color-heading: #2618ba;
+    --width: 100px;
+}
+
+p {
+    color: var(--color-text);
+}
+
+h1 {
+    color: #2618ba;
+}
+
+h2{
+    --color-heading: red;
+    color: var(--color-heading);
+}
+.para{
+    font-size: 2rem;
+}
+
+.text p {
+    font-size: 3em;
+}
+
+.text{
+    font-size: 10px;
+}
+
+.box {
+    width: calc(var(--width)*8);
+    height: 50vh;
+    background-color: brown;
+}
+
+.box-inner{
+    width: 80vw;
+    height: 50%;
+    background-color: blue;
+}
