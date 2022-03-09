@@ -17,6 +17,7 @@ body{
     color: #fff;
     background-size: 100%;
     margin-top: 30px;
+    height: 450px;
 }
 .container-footer-image img{
     width: 300px;
@@ -59,4 +60,13 @@ body{
 }
 .footer-social a:hover{
     color: #ed6436;
+}
+.author{
+    background-color: #000;
+    height: 50px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 17px;
 }

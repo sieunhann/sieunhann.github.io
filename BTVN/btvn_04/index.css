@@ -32,7 +32,8 @@
 /* css body title */
 .title{
     text-align: center;
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     font-size: 25px;
 }
 /* css body container-product */
