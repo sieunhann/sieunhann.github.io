@@ -55,12 +55,12 @@
 /* css body container-product */
 .container-product{
     display: inline-flex;
-    justify-items: center;
+    justify-content: center;
 }
 .container-product-row{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    padding-left: 100px;
 }
 .product{
     width:calc(25%-20px);
