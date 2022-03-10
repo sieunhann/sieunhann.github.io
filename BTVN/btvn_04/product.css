@@ -47,6 +47,7 @@
 }
 .product-product-image img{
     width: 100%;
+    object-fit: cover;
 }
 .product-product-info{
     width: 700px;

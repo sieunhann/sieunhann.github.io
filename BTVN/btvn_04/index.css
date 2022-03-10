@@ -1,3 +1,19 @@
+/* css breadcrum */
+.breadcrum-shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("//theme.hstatic.net/200000463473/1000816547/14/home_slider_image_2.jpg?v=774");
+    height: 500px;
+    color: #fff;
+}
+
+.breadcrum-content{
+    text-align: center;
+    line-height: 40px;
+    font-weight: 200;
+    font-size: 20px;
+}
 /* css body group-collection */
 .body{
     text-align: center;
