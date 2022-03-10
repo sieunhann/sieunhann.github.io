@@ -19,17 +19,24 @@ body{
     margin-top: 30px;
     height: 450px;
 }
+.container-footer-info{
+    width: 1300px;
+    margin: auto;
+}
 .container-footer-image img{
     width: 300px;
     margin-left: 100px;
 }
-.container-footer-info{
+.row{
     display: flex;
-    margin: 50px 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 .footer-col{
-    width: calc(25% - 30px);
-    margin: 0 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .footer-title{
     text-transform: uppercase;
