@@ -8,21 +8,26 @@
 .container-body{
     display: flex;
     flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 .row{
     display: flex;
-    padding: 15px;
+    width: 1000px;
     flex-wrap: wrap;
 }
 .image{
-    height: 270px;
+    height: 250px;
     overflow: hidden;
 }
 img {
+    height: 100%;
     width: 100%;
     display: block;
     margin: auto;
     object-fit: cover;
+    cursor: pointer;
 }
 .card{
     flex-basis: calc(100%/3 - 30px);
