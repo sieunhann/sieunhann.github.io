@@ -19,7 +19,7 @@
     text-align: center;
 }
 .group-collection{
-    margin: 0 auto;
+    margin-top: 15px;
 }
 .group-collection-container{
     display: inline-flex;
