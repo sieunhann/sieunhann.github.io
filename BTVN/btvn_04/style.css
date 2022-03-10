@@ -23,9 +23,17 @@ body{
     width: 1300px;
     margin: auto;
 }
+.container-footer-image{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.footer-image-row{
+    width: 1300px;
+}
 .container-footer-image img{
     width: 300px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .row{
     display: flex;
