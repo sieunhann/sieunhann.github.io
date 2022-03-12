@@ -14,7 +14,7 @@ body{
 .list-search{
     flex-basis: 100%;
     margin-bottom: 24px;
-    padding-left: 30px;
+    padding-left: 20px;
     color: #5e5e5e;
 }
 .list-search-content{
@@ -50,7 +50,7 @@ body{
 }
 .row{
     display: flex;
-    width: 1000px;
+    width: 1200px;
     flex-wrap: wrap;
 }
 .image{
@@ -67,11 +67,11 @@ img {
     cursor: pointer;
 }
 .card{
-    flex-basis: calc(100%/3 - 30px);
+    flex-basis: calc(100%/4 - 20px);
     box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
     border-radius: 4px;
     overflow: hidden;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-bottom: 30px;
 }
 
