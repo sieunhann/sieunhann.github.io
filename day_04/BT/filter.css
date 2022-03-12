@@ -1,0 +1,53 @@
+.col-filter{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-filter-sticky{
+    position: sticky;
+    top: 20px;
+    padding-bottom: 1.5rem;
+    
+}
+p.filter-title{
+    color: #464646;
+    font-size: 19.2px;
+    font-weight: 400;
+}
+
+label.subject-title{
+    color: #464646;
+    font-size: 17.6px;
+    font-weight: 400;
+    cursor: pointer;
+}
+input.course-filter{
+    cursor: pointer;
+}
+.filter-title{
+    padding-bottom: 1rem;
+}
+.filter-option{
+    padding-bottom: 1rem;
+}
+/* .filter-option label:before {
+    border: 2px solid #3c78e8;
+    height: 20px;
+    left: 0;
+    top: 0;
+    width: 20px;
+}
+.filter-option label:before, .filter-option label::after{
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    transition: all .3s ease;
+    transition-property: transform,border-color;
+}
+.filter-option label::after{
+    background: #337ab7;
+    height: 10px;
+    left: 5px;
+    top: 5px;
+    transform: scale(0);
+    width: 10px;
+} */

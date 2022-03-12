@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    height: 100vh;
+}
+ul{
+    list-style-type: none;
+    font-size: 13px;
+}
+.title {
+    margin-bottom: 20px;
+}
+.menu{
+    background-color: #fff;
+}
+.menu-item{
+    line-height: 30px;
+}
+.menu-item p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+
+.icon i{
+    line-height: 30px;
+    display: none;
+}
+
+ul.menu > li:hover{
+    color: #f57224;
+    background-color: #f4f4f4;
+}
+
+ul.menu > li:hover .icon i{
+    display: block;
+    color: #f57224;
+}
+
+.menu li {
+    position: relative;
+}
+
+
+ul.menu > li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    color: #757575;
+}
+
+ul.menu > li:hover .sub-menu .icon{
+    display: none;
+}
+
+/* sub-menu */
+.sub-menu{
+    display: none;
+    background-color: #fff;
+    width:  200px;
+}
+
+ul.sub-menu > li:hover {
+    color: #f57224;
+    background-color: #f4f4f4;
+}
+ul.sub-menu > li:hover .icon i{
+    display: block;
+    color: #f57224;
+}
+ul.sub-menu > li:hover .sub-sub-menu{
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    color: #757575;
+}
+
+ul.menu > li:hover ul.sub-menu >li:hover .icon{
+    display: block;
+    color: #f57224;
+}
+
+
+/* sub-sub-menu */
+.sub-sub-menu{
+    display: none;
+    background-color: #fff;
+    width:  200px;
+}
+
+ul.sub-sub-menu > li:hover{
+    color: #f57224;
+    background-color: #f4f4f4;
+}

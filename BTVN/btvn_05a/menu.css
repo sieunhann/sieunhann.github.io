@@ -1,0 +1,153 @@
+/* css header */
+img{
+    max-width: 100%;
+    display: block;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+
+.header{
+    height: 60px;
+    background-color: #34465c;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo img{
+    width: 120px;
+    height: 37px;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.side-bar{
+    display: flex;
+}
+
+.list-menu{
+    display: flex;
+    height: 100%;
+}
+
+.menu > ul > li{
+    color: #fff;
+    margin: 0 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    font-size: 15.2px;
+    font-weight: 400;
+}
+.menu > ul > li:hover .sub-menu {
+    display: block;
+}
+.avatar > ul > li{
+    position: relative;
+}
+.avatar > ul > li:hover .sub-menu-avt{
+    display: block;
+}
+
+.menu > ul > li:hover{
+    color: #c4c4c4;
+}
+
+.menu-item span{
+    margin: 8px;
+}
+.menu-item{
+    font-family: sans-serif;
+}
+
+.sub-menu-avt{
+    box-shadow: 0 0 10px rgb(0 0 0 /15%) ;
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    top: 100%;
+    z-index: 10;
+    display: none;
+    font-family: sans-serif;
+}
+.sub-menu{
+    box-shadow: 0 0 10px rgb(0 0 0 /15%) ;
+    width: 180px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 10;
+    display: none;
+    font-family: sans-serif;
+}
+
+.sub-menu li, .sub-menu-avt li{
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+}
+
+.sub-menu li:hover, .sub-menu-avt li:hover{
+    background-color: #c4c4c4;
+}
+.avatar img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.cart-item{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.cart-item{
+    position: relative;
+}
+.cart-icon{
+    font-size: 23px;
+    /* width: 25.2px;
+    height: 23.2px; */
+}
+.cart-count{
+    font-size: 13.2px;
+    position: absolute;
+    bottom: 30px;
+    background-color: #26A69A;
+    border-radius: 4px;
+    right: -15px;
+    padding: 3.3px 5.28px;
+    height: 19.8px;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 35px;
+}
+
+.icon-chat{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+.icon-chat img{
+    border-radius: 50%;
+    width: 100%;
+}
