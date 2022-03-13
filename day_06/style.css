@@ -1,0 +1,81 @@
+
+/* .box{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+
+    transition-property: width, height;
+    transition-duration: 0.5s;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+
+    transition: all 0.5s;
+}
+
+.box:hover{
+    width: 300px;
+    height: 200px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: blue;
+}
+.box{
+    width: 400px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* .box h2{
+    position: relative;
+    left: -200px;
+
+    transition: all 0.5s;
+}
+
+.box:hover h2{
+    left: 0;
+} */
+
+.box p{
+    position: relative;
+    right: -400px;
+
+    transition: all 0.5s;
+}
+
+.box:hover p{
+    right: 0;
+}
+
+.box h2{
+    transform: translateX(-200px);
+    transition: all 0.5s;
+}
+
+.box:hover h2{
+    transform: translateX(0);
+}
+
+/* .box p{
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.box:hover p{
+    transform: scale(2);
+} */

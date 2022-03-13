@@ -24,6 +24,7 @@ ul{
 }
 .menu{
     background-color: #fff;
+    position: relative;
 }
 .menu-item{
     line-height: 30px;
@@ -50,9 +51,9 @@ ul.menu > li:hover .icon i{
     color: #f57224;
 }
 
-.menu li {
+/* .menu li {
     position: relative;
-}
+} */
 
 
 ul.menu > li:hover .sub-menu{
@@ -72,6 +73,7 @@ ul.menu > li:hover .sub-menu .icon{
     display: none;
     background-color: #fff;
     width:  200px;
+    height: 100%;
 }
 
 ul.sub-menu > li:hover {
@@ -101,6 +103,7 @@ ul.menu > li:hover ul.sub-menu >li:hover .icon{
     display: none;
     background-color: #fff;
     width:  200px;
+    height: 100%;
 }
 
 ul.sub-sub-menu > li:hover{

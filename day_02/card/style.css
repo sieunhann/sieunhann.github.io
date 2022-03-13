@@ -13,14 +13,17 @@ img {
     max-width: 100%;
     display: block;
     margin: auto;
+    
 }
 .card{
     width: 350px;
+    height: 400px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
     border-radius: 4px;
     margin: auto;
     margin-top: 100px;
     overflow: hidden;
+    position: relative;
 }
 
 .content{
@@ -43,4 +46,60 @@ img {
 
 .content .rating i{
     color: yellow
+}
+
+/* .content{
+    position: relative;
+    bottom: -400px;
+
+    transition: all 1s;
+}
+.card:hover .content{
+    bottom: 0;
+} */
+
+/* .image img{
+    transform: scale(1);
+    transition: all 1s;
+}
+
+.card:hover img{
+    transform: scale(1.2);
+}
+
+.content{
+    transform: translateY(-400px);
+    transition: all 1s;
+}
+
+.card:hover .content{
+    transform: translateY(0);
+} */
+img{
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 1s;
+}
+.image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* transform: scale(1);
+    transition: all 1s; */
+}
+
+.card:hover img{
+    transform: scale(1.2);
+}
+
+.content{
+    transform: translateY(400px);
+    transition: all 1s;
+}
+
+.card:hover .content{
+    transform: translateY(200px);
 }
