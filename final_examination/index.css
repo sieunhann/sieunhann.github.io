@@ -1,0 +1,146 @@
+/* CSS BANNER SLIDER */
+
+.banner-slider{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("//theme.hstatic.net/200000463473/1000816547/14/home_slider_image_1.jpg?v=774");
+    height: 500px;
+    color: #fff;
+}
+
+.banner-slider-content{
+    text-align: center;
+    line-height: 60px;
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.banner-slider-content a button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.banner-slider-content a button:hover{
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+
+/* CSS HOME SECTION */
+
+.home-section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section-title span:first-of-type{
+    color: #ed6436;
+}
+
+.section-1-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    max-width: 1500px;
+}
+.section-1-col{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 70px;
+    padding-left: 20px;
+}
+.section-1-col-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.section-1-col-image img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+.section-1-col-text{
+    font-size: 22px;
+}
+
+.section-1-col-image:hover img{
+    opacity: 0.7;
+    transform: scale(1.2);
+}
+
+/* CSS HOME BANNER */
+.home-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.home-banner-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+}
+
+.home-banner-item{
+    width: calc(100%/3);
+    padding-left: 10px;
+    padding-right: 10px;
+
+    position: relative;
+}
+
+.home-banner-item-content{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.home-banner-item-content p{
+    line-height: 22px;
+    font-size: 14px;
+}
+.home-banner-item-content h3{
+    line-height: 43px;
+    font-size: 36px;
+}
+.home-banner-item-image{
+    border-radius: 15px;
+    overflow: hidden;
+}
+.home-banner-item-content a button{
+    background-color: #ed6436;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #ed6436;
+    margin-top: 25px;
+}
+.home-banner-item-content a button:hover{
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+.product-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
