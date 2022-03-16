@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+
+    /* animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    animation: animation 10s infinite;
+}
+
+@keyframes animation{
+    0% {
+        transform: translateX(0);
+        transform: translateY(0);
+        background-color: #000;
+    }
+    25% {
+        transform: translateX(200px);
+        /* transform: translateY(0); */
+        background-color: red;
+    }
+
+    50% {
+        transform: translateX(200px);
+        transform: translateY(200px);
+        background-color: yellow;
+    }
+    75% {
+        transform: translateY(200px);
+        transform: translateX(0px);
+        background-color: green;
+    }
+    100% {
+        transform: translateX(0);
+        transform: translateY(0);
+        background-color: #000;
+    }
+}
