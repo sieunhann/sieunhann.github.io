@@ -1,27 +1,8 @@
-/* css button back */
-.button-back{
-    margin-top: 15px;
-    margin-left: 100px;
-    margin-bottom: 15px;
-    color: #ed6436;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: 400;
-}
-.button-back a {
-    color: #ed6436;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: 400;
-}
 
-.button-back a:hover{
-    color: #000;
-    text-decoration: underline;
-}
 /* css body product */
 .body-product{
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 .product-row{
     display: flex;
@@ -35,6 +16,7 @@
     display: inline-flex;
     justify-items: center;
     width: 100%;
+    margin-bottom: 80px;
 }
 .product-product-image{
     width: 600px;
