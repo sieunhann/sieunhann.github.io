@@ -79,7 +79,6 @@ ul{
 }
 
 .sub-menu{
-    color: #000;
     background-color: #fff;
     line-height: 30px;
     padding: 15px;
@@ -91,6 +90,9 @@ ul{
     z-index: 10;
     display: none;
     font-family: sans-serif;
+}
+.sub-menu a{
+    color: #000;
 }
 .menu > ul > li:hover .sub-menu {
     display: block;

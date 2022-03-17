@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+.contact-us{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 250px;
+}
+
+.contact-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 100%;
+}
+
+.contact-info{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 300px;
+    height: 312px;
+    padding: auto 15px;
+    margin: 20px;
+}
+.contact-inner{
+    width: 327px;
+    height: 287px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+}
+.card-title{
+    width: 100%;
+    height: 45px;
+    padding: 12px 16px;
+    background-color: #f0f0f0;
+}
+
+.card-content {
+    width: 100%;
+    height: 240px;
+    padding: 25px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.18px;
+}
+.card-content p{
+    margin-bottom: 10px;
+}
+.card-content button{
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: #000;
+    font-size: 12px;
+    color: #fff;
+}
+.contact-form-container{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-form-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 93%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+}
+.contact-form-content h2{
+    width: 100%;
+    margin: 10px;
+}
+.contact-form-content input{
+    padding: 8px;
+    width: 46.2%;
+    margin: 10px;
+}
+.contact-form-content input:first-of-type{
+    width: 100%;
+}
+.contact-form-content textarea{
+    margin: 10px;
+    width: 100%;
+    padding: 5px;
+}
+.contact-form-content button{
+    margin: 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: #000;
+    font-size: 12px;
+    color: #fff;
+}
+.content-social{
+    margin-top: 40px;
+    width: 80%;
+    text-align: center;
+}
+.content-social{
+    font-size: 30px;
+}
+.content-social a{
+    color: #000;
+    margin: 30px;
+    text-decoration: none;
+}
+.content-social a:hover{
+    color: #ed6436;
+}
+.contact-form-container p{
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #ed6436;
+}
