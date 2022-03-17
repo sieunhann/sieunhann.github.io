@@ -191,6 +191,7 @@ ul{
 .footer-social a{
     color: #fff;
     margin-right: 10px;
+    text-decoration: none;
 }
 .footer-social a:hover{
     color: #ed6436;
