@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d3c9013-9a99-4acf-ae09-f3ea3c27a94f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/first_app/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/out/production/untitled104/vn/techmaster/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/src/vn/techmaster/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/untitled104.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="26mRr0pMfDgGQ6QCHMD4vQY22bf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d3c9013-9a99-4acf-ae09-f3ea3c27a94f" name="Changes" comment="" />
+      <created>1648026970167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648026970167</updated>
+      <workItem from="1648026971615" duration="154000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
