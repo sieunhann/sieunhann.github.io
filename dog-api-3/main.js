@@ -33,19 +33,21 @@ const imageEl = document.getElementById("image")
 
 btnRandom.addEventListener("click", async () => {
     try {
-        subBreedListEl.innerHTML="";
+        subBreedListEl.innerHTML = "";
         result.style.visibility = 'hidden';
+
         let value = breedListEl.options[breedListEl.selectedIndex].value;
         let response = await axios.get(`https://dog.ceo/api/breed/${value}/list`); // lay danh sach giong loai con
-        console.log(response)
-        if(response.data.message.length == 0){
+        console.log(response);
+
+        if (response.data.message.length == 0) {
             const para = document.createElement("li");
             para.innerHTML = `Khong co sub breed`;
             subBreedListEl.appendChild(para);
         } else {
             renderSubBreedList(response.data.message, value);
         }
-        
+
     } catch (error) {
         console.log(error);
     }
@@ -57,10 +59,12 @@ const subBreedListEl = document.getElementById("sub-breed-list")
 const renderSubBreedList = (obj, value) => {
     let key = Object.values(obj);
     console.log(key);
-    key.forEach(key =>{
+
+    key.forEach(key => {
         const para = document.createElement("li");
         para.innerHTML = `${key}`;
         subBreedListEl.appendChild(para);
+        
         para.addEventListener("click", async () => {
             try {
                 let res = await axios.get(`https://dog.ceo/api/breed/${value}/${key}/images/random`);
