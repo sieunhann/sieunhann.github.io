@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    #login {
+        display: block;
+    }
+
+    #info,
+    #back {
+        display: none;
+    }
+</style>
+
+<body>
+    <div id="login">
+        <h1 id="title">Login</h1>
+        <div class="input-row">
+            <input type="text" id="input-name" placeholder="User name">
+            <br>
+            <small class="message"></small>
+        </div>
+        <br>
+        <div class="input-row">
+            <input type="text" id="input-password" placeholder="Password">
+            <br>
+            <small class="message"></small>
+        </div>
+        <br>
+        <button id="btn-login">Login</button>
+    </div>
+
+    <div id="info"></div>
+    <button id="back">Back</button>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./login.js"></script>
+</body>
+
+</html>
