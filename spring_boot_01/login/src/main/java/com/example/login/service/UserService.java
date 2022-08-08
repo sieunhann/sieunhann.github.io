@@ -22,6 +22,7 @@ public class UserService {
         userList.add(new User(3, "root3", "root3@gmail.com", "333333", "root3.png"));
         userList.add(new User(4, "root4", "root4@gmail.com", "444444", "root4.png"));
         userList.add(new User(5, "root5", "root5@gmail.com", "555555", "root5.png"));
+        userList.add(new User(6, "root6", "root6@gmail.com", "666666", "root6.png"));
     }
     public UserDto getUserInfo(LoginRequest request) {
         User user = checkLogin(request).orElseThrow(() -> {
