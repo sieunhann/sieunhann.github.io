@@ -1,3 +1,4 @@
+
 const nameIp = document.querySelector("#input-name");
 const passIp = document.querySelector("#input-password");
 const loginBtn = document.querySelector("#btn-login")
@@ -27,7 +28,7 @@ function showInfo(user){
     let html = "";
     let title = `<h1>Hello ${user.userName}</h1>`;
     let email = `<p>Email: ${user.email}</p>`;
-    let avatar = `<img src="image/${user.avatar}" alt="${user.userName}" width="150">`
+    let avatar = `<img src="../image/${user.avatar}" alt="${user.userName}" width="150">`
     html = title + email + avatar;
 
     infoEl.innerHTML = html;
