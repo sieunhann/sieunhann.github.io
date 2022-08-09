@@ -11,7 +11,7 @@ const check = document.querySelector(".input-row")
 loginBtn.addEventListener("click", async () => {
     try {
         checkValidate();
-        let value = await axios.post("http://localhost:8080/login", {
+        let value = await axios.post("https://ancient-forest-80803.herokuapp.com/login", {
             "userName": nameIp.value,
             "password": passIp.value
         })
