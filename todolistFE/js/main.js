@@ -44,24 +44,33 @@ const updateTodoAPI = (id, title, status) => {
 
 // Ham xu ly =====
 // 1. Lay danh sach cv
+
+// Thuc hien lay danh sach khi chon bo loc
 todoOp.addEventListener('change', async (e) => {
     try {
         let target = e.target;
-        switch(target.id){
-            case "all": 
-                getTodo();
-                break;
-            case "active":
-                getTodoByStatus(true);
-                break;
-            case "unactive":
-                getTodoByStatus(false);
-                break;
-        }
+        checkRender(target)
     } catch (error) {
         console.log(error);
     }
 })
+
+// Lay danh sach cong viec theo bo loc
+const checkRender = (target) => {
+    switch(target.id){
+        case "all": 
+            getTodo();
+            break;
+        case "active":
+            getTodoByStatus(true);
+            break;
+        case "unactive":
+            getTodoByStatus(false);
+            break;
+    }
+}
+
+
 // a. Danh sach tat ca cv
 const getTodo = async () => {
     try {
@@ -112,7 +121,15 @@ addBtn.addEventListener("click", async () => {
         checkValidate();
         let todo = await createTodoAPI();
         inputVal.value = "";
-        renderTodo(todos)
+        let arr = todoOp.getElementsByClassName('todo-option-item');
+        for(let i = 0; i < arr.length; i++){
+            let val = arr[i].firstElementChild;
+            console.log(val);
+            if(val.checked){
+                checkRender(val);
+                break;
+            }
+        }
     } catch (error) {
         console.log(error);
     }
