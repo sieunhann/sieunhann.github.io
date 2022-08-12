@@ -39,7 +39,7 @@ const render = (course, supporter) => {
     if(course == null){
         breadcrumbEl.innerHTML = `
             <li class="breadcrumb-item"><a href="./course-list.html">Khóa học</a></li>
-            <li class="breadcrumb-item active" aria-current="page">No data</li>
+            <li class="breadcrumb-item active" aria-current="page"></li>
         `
         titleEl.innerText = "";
         descriptionEl.innerText = "";
